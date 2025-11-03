@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="" href="">
+    <title>Dakota Houston-Contact Me</title>
+</head>
+<body>
+    <header>Contact Me</header>
+    <nav>
+        <a href="about-me.html">About Me</a>
+        <a href="index.html">Home</a>
+        <a href="schooling.html">Schooling</a>
+        <a href="resume.html">Resume</a>
+        <a herf="extracurricular.html">Extracurricular</a>
+    </nav>
+    <h1>Contact me at</h1>
+    <p>Dakota.Houston@dcmustangs.com</p>
+    <p>Dakota_Houston@stu.indianhills.edu</p>
+    <p>(641)-208-6766</p>
+    <form>
+        <!--random qusetion but I wasnt sure where else to put this-->
+        <fieldset>
+            <legend>Are you interested in contacting me?</legend>
+            <input type="radio" id="Yes" value="Yes" name="Intrested" checked>
+            <label for="yes">Yes</label>
+            <input type="radio" id="No" value="No" name="Intrested">
+            <label for="no">No</label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<style>
+    /*Sttyling this was very difficult I wanted it to be stuck at the bottom but then the submit button wouldn't follow also the boarder color didn't want to change to just one color*/
+    input[type="submit"] {
+        position: fixed;
+        bottom:0;
+        margin-left: 5%;
+        margin-bottom: 75px;
+        background-color: rgb(216, 78, 119);
+        color: rgb(253, 178, 207);
+        border: none;
+        font-family:'Courier New', Courier, monospace;
+    }
+    fieldset {
+        position: fixed;
+        bottom:0;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 10px;
+        border: 5px solid rgb(216, 78, 119);
+        font-family:'Courier New', Courier, monospace;
+    }
+    a:visited {
+        color: rgb(253, 178, 207);
+    }
+   a:link {
+    color: rgb(253, 178, 207);
+   }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(216, 78, 119);
+        height: 50px;
+        color: rgb(253, 178, 207);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    header {
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 85px;
+    }
+    body {
+        background-color: rgb(253, 178, 207);
+        color: rgb(216, 78, 119);
+    }
+    h1 {
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 45px;
+    }
+    p {
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+</style>
+</html>
