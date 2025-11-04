@@ -1,0 +1,68 @@
+ /*I'm going to be so honnest right now...this page took forever*/
+div {
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 2px solid rgb(253, 178, 207);
+    background-color: rgb(216, 78, 119);
+    padding: 10px;
+    margin-top: 50px;
+}
+th {
+    border-right: 3px solid rgb(216, 78, 119);
+    padding: 8px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+table, td {
+    margin-top: 50px;
+    margin-left: 5px;
+    border: 2px solid rgb(216, 78, 119);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 3px;
+    font-family:'Courier New', Courier, monospace;
+}
+#photos {
+    text-align: center;
+    color: rgb(216, 78, 119);
+}
+h1 {
+    color: rgb(253, 178, 207);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    color: rgb(253, 178, 207);
+    font-family:'Courier New', Courier, monospace;
+}
+video {
+    height: 500px;
+}
+img {
+    width: 500px;
+}
+a:visited {
+    color: rgb(253, 178, 207);
+}
+a:link {
+    color: rgb(253, 178, 207);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(216, 78, 119);
+    height: 50px;
+    color: rgb(253, 178, 207);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85px;
+}
+body {
+    background-color: rgb(253, 178, 207);
+    color: rgb(216, 78, 119);
+}

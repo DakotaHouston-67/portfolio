@@ -1,0 +1,43 @@
+/*Styling this was very hard because I has a vision but it turns out that vision is very difficult then I realized I was just making it comlpicted for no reason and that I could put it in the list tag*/
+div {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+th {
+    border-right: 3px solid rgb(216, 78, 119);
+    padding: 8px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+table, td {
+    border: 2px solid rgb(216, 78, 119);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 3px;
+    font-family:'Courier New', Courier, monospace;
+}
+a:visited {
+    color: rgb(253, 178, 207);
+}
+a:link {
+    color: rgb(253, 178, 207);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  rgb(216, 78, 119);
+    height: 50px;
+    color: rgb(253, 178, 207);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85px;
+}
+body {
+    background-color: rgb(253, 178, 207);
+    color: rgb(216, 78, 119);
+}

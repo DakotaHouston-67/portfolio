@@ -1,0 +1,44 @@
+/*this was the easiest one to style because it's nice and simple*/
+#schooling-paragraph {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    max-width: 50%;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+div {
+    border: 2px solid rgb(253, 178, 207);
+    background-color: rgb(216, 78, 119);
+    color: rgb(253, 178, 207);;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+a:visited {
+    color: rgb(253, 178, 207);
+}
+a:link {
+    color: rgb(253, 178, 207);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  rgb(216, 78, 119);
+    height: 50px;
+    color: rgb(253, 178, 207);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85px;
+}
+body {
+    background-color: rgb(253, 178, 207);
+    color: rgb(216, 78, 119);
+}
