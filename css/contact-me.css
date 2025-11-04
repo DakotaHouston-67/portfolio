@@ -1,0 +1,54 @@
+/*Sttyling this was very difficult I wanted it to be stuck at the bottom but then the submit button wouldn't follow also the boarder color didn't want to change to just one color*/
+input[type="submit"] {
+    position: fixed;
+    bottom:0;
+    margin-left: 5%;
+    margin-bottom: 75px;
+    background-color: rgb(216, 78, 119);
+    color: rgb(253, 178, 207);
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+}
+fieldset {
+    position: fixed;
+    bottom:0;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 5px solid rgb(216, 78, 119);
+    font-family:'Courier New', Courier, monospace;
+}
+a:visited {
+    color: rgb(253, 178, 207);
+}
+a:link {
+    color: rgb(253, 178, 207);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(216, 78, 119);
+    height: 50px;
+    color: rgb(253, 178, 207);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85px;
+}
+body {
+    background-color: rgb(253, 178, 207);
+    color: rgb(216, 78, 119);
+}
+h1 {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+}
+p {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
